@@ -10,8 +10,8 @@
     <div class="header_sec_cont">
         <nav class="navbar">
             <ul class="navbar_list">
-                <button class="hamburger_button" onclick="openSidebar()">
-                    <img src="img/List.png" alt="Hamburger menyu ikonası">
+                <button class="hamburger_button" onclick="mobileMenuToggle()">
+                    <img src="img/List.png" alt="menyu ikonası" width="28">
                 </button>
                 <li>Çözüm ve Hizmetler</li>
                 <li>Ürünler</li>
@@ -20,8 +20,10 @@
                 <li>Kurumsal</li>
                 <button class="contact_us_button">İletişim</button>
             </ul>
-            <ul class="navbar_for_mobile">
-                <img class="x_icon" src="img/x icon" alt="">
+            <ul id="mobile_navbar" class="navbar_for_mobile">
+                <li style="text-align:right;">
+                    <span class="x_icon" onclick="mobileMenuToggle()">&#10005;</span>
+                </li>
                 <li>Çözüm ve Hizmetler</li>
                 <li>Ürünler</li>
                 <li>Teknolojiler</li>
@@ -42,7 +44,6 @@
                 <input type="email" placeholder="Mail bültenimize kayıt ol">
                  <button type="submit">Kayıt Ol</button>
             </div>
-
         </div>
     </div>
     <section class="main_quality_cont">

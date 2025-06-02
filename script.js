@@ -1,7 +1,18 @@
-function openSidebar() {
-  document.getElementById("mySidebar").style.width = "250px";
+function mobileMenuToggle() {
+    const menu = document.getElementById('mobile_navbar');
+    if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'flex';
+    }
 }
 
-function closeSidebar() {
-  document.getElementById("mySidebar").style.width = "0";
+function mobileMenuToggle() {
+    const menu = document.getElementById('mobile_navbar');
+    if (menu.style.display === 'none') {
+        menu.style.display = 'flex';
+    } else {
+        menu.style.display = 'none';
+    }
 }
+

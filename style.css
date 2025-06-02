@@ -243,7 +243,7 @@ body{
     font-size: 45px;
     width: 70%;
     }
-    
+
 }
 
 @media (max-width: 640px){
@@ -280,11 +280,12 @@ body{
     right: 30px;
     }
 
+
     .navbar_for_mobile {
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
-    top: -3%;
+    top: -5%;
     background: grey;
     padding: 70px 10px 0px 10px;
     height: 100%;
@@ -298,8 +299,8 @@ body{
     display: flex;
     position: absolute;
     width: 20%;
-    right: 103px;
-    top: 20px;
+    right: 100px;
+    top: 22px;
     cursor: pointer;
 }
 }
