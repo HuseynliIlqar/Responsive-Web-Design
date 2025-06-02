@@ -21,6 +21,7 @@ body{
     background: grey;
     padding: 30px;
     height: 100%;
+    gap: 20px;
 }
 
 
@@ -280,13 +281,22 @@ body{
 
 
     .navbar_for_mobile {
-    display: none;
+    display: flex;
     flex-direction: column;
-    position: fixed;
     top: -5%;
-    background: grey;
+    left: -100%;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 70px 10px 0px 10px;
     height: 100%;
+    transition: left 0.8s cubic-bezier(.77,0,.18,1);
+    width: 35%;
+    }
+    
+    .open{
+    left: 0px;
+    transition: left 0.8s cubic-bezier(.77,0,.18,1);
     }
 
     .header_text_cont {
@@ -295,7 +305,7 @@ body{
 
     .x_icon{
     display: flex;
-    padding: 14px 55px 5px 5px;
+    padding: 14px 100px 0px 0px;
     width: 20%;
     cursor: pointer;
     font-size: 25px;
