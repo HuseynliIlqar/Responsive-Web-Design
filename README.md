@@ -1,4 +1,3 @@
----
 ## Responsive Web Design Project
 
 This project demonstrates a responsive web design implementation, ensuring a seamless user experience across various devices and screen sizes. It showcases best practices for creating flexible and adaptable layouts using modern web technologies.
@@ -64,5 +63,3 @@ Contributions are welcome! If you have suggestions for improvements or find any 
 4.  Commit your changes (`git commit -m 'Implement new responsive feature'`).
 5.  Push to the branch (`git push origin feature/your-feature-name`).
 6.  Open a Pull Request.
-
----
