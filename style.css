@@ -276,8 +276,6 @@ body{
 
     .hamburger_button{
     display: flex;
-    position: relative;
-    right: 30px;
     }
 
 
@@ -297,11 +295,10 @@ body{
 
     .x_icon{
     display: flex;
-    position: absolute;
+    padding: 14px 55px 5px 5px;
     width: 20%;
-    right: 100px;
-    top: 22px;
     cursor: pointer;
+    font-size: 25px;
 }
 }
 
