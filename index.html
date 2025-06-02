@@ -10,13 +10,23 @@
     <div class="header_sec_cont">
         <nav class="navbar">
             <ul class="navbar_list">
-                <img src="img/List.png" alt="">
+                <button class="hamburger_button" onclick="openSidebar()">
+                    <img src="img/List.png" alt="Hamburger menyu ikonası">
+                </button>
                 <li>Çözüm ve Hizmetler</li>
                 <li>Ürünler</li>
                 <li>Teknolojiler</li>
                 <li>İnsan Kaynakları</li>
                 <li>Kurumsal</li>
-                <button>İletişim</button>
+                <button class="contact_us_button">İletişim</button>
+            </ul>
+            <ul class="navbar_for_mobile">
+                <img class="x_icon" src="img/x icon" alt="">
+                <li>Çözüm ve Hizmetler</li>
+                <li>Ürünler</li>
+                <li>Teknolojiler</li>
+                <li>İnsan Kaynakları</li>
+                <li>Kurumsal</li>
             </ul>
         </nav>
         <div class="header_text_cont">
@@ -85,5 +95,6 @@
             <p>Zaman ve Maliyetten Tasarruf Sağlıyoruz</p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
